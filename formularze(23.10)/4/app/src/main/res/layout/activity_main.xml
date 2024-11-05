@@ -1,0 +1,52 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:background="#EDE7F6">
+
+    <TableRow>
+        <TextView
+            android:text="Login:"
+            android:textColor="#3E2723"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"/>
+        <EditText
+            android:id="@+id/register_username"
+            android:hint="Wpisz login"
+            android:backgroundTint="#D1C4E9"
+            android:textSize="12sp"
+            android:layout_width="match_parent"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Hasło:"
+            android:textColor="#3E2723"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"/>
+        <EditText
+            android:id="@+id/register_password"
+            android:hint="Wpisz hasło"
+            android:backgroundTint="#D1C4E9"
+            android:inputType="textPassword"
+            android:textSize="12sp"
+            android:layout_width="match_parent"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Potwierdź hasło:"
+            android:textColor="#3E2723"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"/>
+        <EditText
+            android:id="@+id/register_confirm_password"
+            android:hint="Potwierdź hasło"
+            android:backgroundTint="#D1C4E9"
+            android:inputType="textPassword"
+            android:textSize="12sp"
+            android:layout_width="match_parent"/>

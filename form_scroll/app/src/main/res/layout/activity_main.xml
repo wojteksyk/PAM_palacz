@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rejestracja"
+            android:textSize="20sp"
+            android:textColor="#1A237E"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imię"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz imię"
+            android:textColor="#212121"
+            android:backgroundTint="#9FA8DA"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwisko"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz nazwisko"
+            android:textColor="#212121"
+            android:backgroundTint="#9FA8DA"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adres e-mail"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz e-mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#212121"
+            android:backgroundTint="#9FA8DA"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numer telefonu"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wpisz numer telefonu"
+            android:inputType="phone"
+            android:textColor="#212121"
+            android:backgroundTint="#9FA8DA"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasło"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#9FA8DA"
+            android:hint="Wpisz hasło"
+            android:inputType="textPassword"
+            android:textColor="#212121"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potwierdź hasło"
+            android:textColor="#303F9F"
+            android:textSize="14sp"
+            android:paddingTop="8dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:backgroundTint="#9FA8DA"
+            android:hint="Potwierdź hasło"
+            android:inputType="textPassword"
+            android:textColor="#212121"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#3949AB"
+            android:text="Zarejestruj się"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

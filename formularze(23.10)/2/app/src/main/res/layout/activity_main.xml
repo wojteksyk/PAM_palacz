@@ -1,0 +1,78 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignMargins"
+    android:id="@+id/main"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:text="Login:"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/register_username"
+        android:hint="Wpisz login"
+        android:backgroundTint="#B0BEC5"
+        android:textSize="12sp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:text="Hasło:"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:hint="Wpisz hasło"
+        android:backgroundTint="#B0BEC5"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="fill"/>
+
+    <TextView
+        android:text="Potwierdź hasło:"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="8dp"/>
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:hint="Potwierdź hasło"
+        android:backgroundTint="#B0BEC5"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:text="Zarejestruj się"
+        android:background="#0288D1"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+</GridLayout>
