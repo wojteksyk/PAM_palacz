@@ -1,0 +1,9 @@
+<resources>
+
+
+    <string name="text1">pole do edycji</string>
+    <string name="text2">pole do edycji </string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
+    <string name="sum">tekst </string>
+</resources>
