@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">LoginAppJS</string>
+    <string name="reg">Rejestruj konto</string>
+    <string name="email"> Podaj e-mail: </string>
+    <string name="pass">Podaj hasło: </string>
+    <string name="passconf">Powtórz hasło: </string>
+    <string name="conf">Zatwierdź</string>
+    <string name="welcome">Witaj  xyz@gmail.com" </string>
+</resources>
