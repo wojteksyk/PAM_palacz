@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Zadanie Podsumowujące Wojciech Syk</string>
+    <string name="header">Logowanie</string>
+    <string name="email">Adres email</string>
+    <string name="pass">Hasło</string>
+    <string name="zaloguj">Zaloguj sie</string>
+    <string name="zabawa">Zabawa fragmentami</string>
+    <string name="zmien">Zmień fragment</string>
+    <string name="show_notis">Pokaż powiadomienie</string>
+    <string name="list">Wyświetlanie listy</string>
+    <string name="f1">Fragment 1</string>
+    <string name="ishowspeed">Otwórz okno dialogowe</string>
+    <string name="f2">Fragment 2</string>
+    <string name="a1">Android 1</string>
+    <string name="a2">Android 2</string>
+    <string name="a3">Android 3</string>
+    <string name="a4">Android 4</string>
+    <string name="noti_title">Powiadomienie</string>
+    <string name="noti_content">Wiadomość powiadomienia</string>
+    <string name="dialog_title">Okno dialogowe</string>
+    <string name="dialog_content">Treść wiadomości</string>
+    <string name="error1">Wypełnij wszystkie pola!!</string>
+    <string name="error2">Niepoprawne dane logowania!</string>
+    <string name="error_permission">Brak zgody na wysyłanie powiadomień!</string>
+    <string name="logged">Zalogowano:D</string>
+</resources>
