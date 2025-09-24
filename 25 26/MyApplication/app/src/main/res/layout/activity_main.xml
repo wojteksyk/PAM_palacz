@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A52A2A"
+        android:padding="10dp"
+        android:text="@string/baner"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/rollBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#D2691E"
+        android:text="@string/orange1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/kosci1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/kosci2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/kosci3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/kosci4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/kosci5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/question" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/wynik"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/game_res"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D2691E"
+        android:text="@string/reset" />
+
+</LinearLayout>
