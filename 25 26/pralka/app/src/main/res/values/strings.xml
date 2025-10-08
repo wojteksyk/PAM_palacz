@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">pralka</string>
+    <string name="header">Urządzenia domowe</string>
+    <string name="autor">Autor: Wojciech Syk</string>
+    <string name="pralka">Pralka</string>
+    <string name="num112">Podaj numer prania 1..12</string>
+    <string name="conf">Zatwierdź</string>
+    <string name="num">Numer prania:</string>
+    <string name="none">Numer prania: nie podano</string>
+    <string name="odkurzacz">Odkurzacz</string>
+    <string name="on">Włącz</string>
+    <string name="off">Wyłącz</string>
+    <string name="odkuracz_on">Odkurzacz włączony</string>
+    <string name="odkuracz_off">Odkurzacz wyłączony</string>
+    <string name="status">Status: naładowany</string>
+</resources>
