@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lista</string>
+    <string name="nowy">Nowy element</string>
+    <string name="add">DODAJ</string>
+</resources>
