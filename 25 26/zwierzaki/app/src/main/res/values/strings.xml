@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">zwierzaki</string>
-    <string name="title">Wizyta u weterynarza</string>
-    <string name="owner">Imię i nazwisko właściciela...</string>
-    <string name="gatunek">Gatunek</string>
-    <string name="cel">Cel wizyty</string>
-    <string name="ile">ile lat: 0</string>
-
-</resources>
